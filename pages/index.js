@@ -128,7 +128,7 @@ export default function Home() {
     <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
         <div className="flex-1 flex flex-col p-8">
-          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="/images/forged2.png" alt />
+          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="/images/forged3.png" alt />
           <h3 className="mt-6 text-gray-900 text-sm font-medium">ForgedMart</h3>
           <dl className="mt-1 flex-grow flex flex-col justify-between">
             <dt className="sr-only">Title</dt>
