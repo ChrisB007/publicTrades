@@ -132,7 +132,7 @@ export default function Home() {
           <h3 className="mt-6 text-gray-900 text-sm font-medium">ForgedMart</h3>
           <dl className="mt-1 flex-grow flex flex-col justify-between">
             <dt className="sr-only">Title</dt>
-            <dd className="text-gray-500 text-sm">3D Laser Marketplace</dd>
+            <dd className="text-gray-500 text-sm">Marketplace for 3D laser printed products</dd>
             <dt className="sr-only">Role</dt>
             <dd className="mt-3">
               <span className="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">WebApp</span>
