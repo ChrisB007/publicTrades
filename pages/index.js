@@ -240,7 +240,7 @@ export default function Home() {
       <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
         <div className="flex-1 flex flex-col p-8">
           <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="images/canabeast.png" alt />
-          <h3 className="mt-6 text-gray-900 text-sm font-medium">Canabeast</h3>
+          <h3 className="mt-6 text-gray-900 text-sm font-medium">Cannabeast</h3>
           <dl className="mt-1 flex-grow flex flex-col justify-between">
             <dt className="sr-only">Title</dt>
             <dd className="text-gray-500 text-sm">Everything you need to know about the Cannabis industry</dd>
