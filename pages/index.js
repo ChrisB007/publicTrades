@@ -202,14 +202,14 @@ export default function Home() {
       </li>
       <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
         <div className="flex-1 flex flex-col p-8">
-          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60" alt />
-          <h3 className="mt-6 text-gray-900 text-sm font-medium">Courtney Henry</h3>
+          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="images/anotherone.png" alt />
+          <h3 className="mt-6 text-gray-900 text-sm font-medium">realTRENDS</h3>
           <dl className="mt-1 flex-grow flex flex-col justify-between">
             <dt className="sr-only">Title</dt>
-            <dd className="text-gray-500 text-sm">Investor Factors Associate</dd>
+            <dd className="text-gray-500 text-sm">Decisions based on what's happening in real time</dd>
             <dt className="sr-only">Role</dt>
             <dd className="mt-3">
-              <span className="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Admin</span>
+              <span className="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">WebApp</span>
             </dd>
           </dl>
         </div>
