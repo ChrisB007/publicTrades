@@ -206,7 +206,7 @@ export default function Home() {
           <h3 className="mt-6 text-gray-900 text-sm font-medium">realTRENDS</h3>
           <dl className="mt-1 flex-grow flex flex-col justify-between">
             <dt className="sr-only">Title</dt>
-            <dd className="text-gray-500 text-sm">Decisions based on what's happening in real time</dd>
+            <dd className="text-gray-500 text-sm">Make decisions based on what's trending in real time</dd>
             <dt className="sr-only">Role</dt>
             <dd className="mt-3">
               <span className="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">WebApp</span>
@@ -243,7 +243,7 @@ export default function Home() {
           <h3 className="mt-6 text-gray-900 text-sm font-medium">Cannabeast</h3>
           <dl className="mt-1 flex-grow flex flex-col justify-between">
             <dt className="sr-only">Title</dt>
-            <dd className="text-gray-500 text-sm">Everything you need to know about the Cannabis industry</dd>
+            <dd className="text-gray-500 text-sm">Resource for everything in the Cannabis industry</dd>
             <dt className="sr-only">Role</dt>
             <dd className="mt-3">
               <span className="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Web | Mobile</span>
