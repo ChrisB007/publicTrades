@@ -116,8 +116,8 @@ export default function Home() {
     <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
         <div className="flex-1 flex flex-col p-8">
-          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="/images/tuber.png" alt />
-          <h3 className="mt-6 text-gray-900 text-sm font-medium">ForgedMart</h3>
+          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="/images/mentors.png" alt />
+          <h3 className="mt-6 text-gray-900 text-sm font-medium">Mentors Parlor</h3>
           <dl className="mt-1 flex-grow flex flex-col justify-between">
             <dt className="sr-only">Title</dt>
             <dd className="text-gray-500 text-sm">Marketplace for 3D laser printed products</dd>
@@ -156,7 +156,7 @@ export default function Home() {
       </li>
       <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
         <div className="flex-1 flex flex-col p-8">
-          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="images/cyberneighbors.png" alt />
+          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="images/neighbors.png" alt />
           <h3 className="mt-6 text-gray-900 text-sm font-medium">CyberNeighbors</h3>
           <dl className="mt-1 flex-grow flex flex-col justify-between">
             <dt className="sr-only">Title</dt>
@@ -196,8 +196,8 @@ export default function Home() {
       </li>
       <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
         <div className="flex-1 flex flex-col p-8">
-          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="images/anotherone.png" alt />
-          <h3 className="mt-6 text-gray-900 text-sm font-medium">realTRENDS</h3>
+          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="images/api.png" alt />
+          <h3 className="mt-6 text-gray-900 text-sm font-medium">Garage API</h3>
           <dl className="mt-1 flex-grow flex flex-col justify-between">
             <dt className="sr-only">Title</dt>
             <dd className="text-gray-500 text-sm">Make decisions based on what's trending in real time</dd>
@@ -239,8 +239,8 @@ export default function Home() {
       </li>
       <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
         <div className="flex-1 flex flex-col p-8">
-          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="images/boxoff.png" alt />
-          <h3 className="mt-6 text-gray-900 text-sm font-medium">BoxOff</h3>
+          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="images/tuberdome.png" alt />
+          <h3 className="mt-6 text-gray-900 text-sm font-medium">TuberDome</h3>
           <dl className="mt-1 flex-grow flex flex-col justify-between">
             <dt className="sr-only">Title</dt>
             <dd className="text-gray-500 text-sm">Make educated guess on which movie will rule the box office</dd>
