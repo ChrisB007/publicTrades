@@ -37,11 +37,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+          {/* <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
             <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Services</a>
             <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Products</a>
             <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Developers</a>
-          </div>
+          </div> */}
         </nav>
       </div>
       {/*
@@ -72,7 +72,7 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
+          {/* <div role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
             <div className="px-2 pt-2 pb-3 space-y-1" role="none">
               <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50" role="menuitem">Services</a>
               <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50" role="menuitem">Products</a>
@@ -80,7 +80,7 @@ export default function Home() {
             </div>
             <div role="none">
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
@@ -109,7 +109,7 @@ export default function Home() {
     </div>
   </div>
   <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-    <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full rounded-r-2xl" src="images/lastbulb2.jpg" alt />
+    <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="images/lastbulb2.jpg" alt />
   </div>
 </div>
 <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
@@ -130,7 +130,7 @@ export default function Home() {
     <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
         <div className="flex-1 flex flex-col p-8">
-          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="/images/forged3.png" alt />
+          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="/images/tuber.png" alt />
           <h3 className="mt-6 text-gray-900 text-sm font-medium">ForgedMart</h3>
           <dl className="mt-1 flex-grow flex flex-col justify-between">
             <dt className="sr-only">Title</dt>
@@ -336,11 +336,6 @@ export default function Home() {
             <ul className="mt-4 space-y-4">
               <li>
                 <a href="#" className="text-base text-gray-300 hover:text-white">
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-base text-gray-300 hover:text-white">
                   Documentation
                 </a>
               </li>
@@ -358,60 +353,6 @@ export default function Home() {
           </div>
         </div>
         <div className="md:grid md:grid-cols-2 md:gap-8">
-          <div>
-            <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-              Company
-            </h3>
-            <ul className="mt-4 space-y-4">
-              <li>
-                <a href="#" className="text-base text-gray-300 hover:text-white">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-base text-gray-300 hover:text-white">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-base text-gray-300 hover:text-white">
-                  Jobs
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-base text-gray-300 hover:text-white">
-                  Press
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-base text-gray-300 hover:text-white">
-                  Partners
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="mt-12 md:mt-0">
-            <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-              Legal
-            </h3>
-            <ul className="mt-4 space-y-4">
-              <li>
-                <a href="#" className="text-base text-gray-300 hover:text-white">
-                  Claim
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-base text-gray-300 hover:text-white">
-                  Privacy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-base text-gray-300 hover:text-white">
-                  Terms
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
       <div className="mt-8 xl:mt-0">
