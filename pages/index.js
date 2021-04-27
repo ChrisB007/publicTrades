@@ -1,6 +1,8 @@
 import Head from 'next/head';
+import Portfolio from '../components/Portfolio';
 
 export default function Home() {
+ 
   return (
     <div>
       <Head>
@@ -95,7 +97,7 @@ export default function Home() {
     </div>
   </div>
   <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-    <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="images/lastbulb2.jpg" alt />
+    <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="images/lastbulb2.jpg" alt="hero-image" />
   </div>
 </div>
 <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
@@ -107,179 +109,15 @@ export default function Home() {
       <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
         Portfolio
       </h2>
-      <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+      <p className="mt-3 mb-4 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
         Growing list of web and mobile apps that once were just ideas, and now launched into actual product/service apps.
       </p>
     </div>
     {/* Starts the Mid section */}
-    <div>
-    <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-      <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-        <div className="flex-1 flex flex-col p-8">
-          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="/images/mentors.png" alt />
-          <h3 className="mt-6 text-gray-900 text-sm font-medium">Mentors Parlor</h3>
-          <dl className="mt-1 flex-grow flex flex-col justify-between">
-            <dt className="sr-only">Title</dt>
-            <dd className="text-gray-500 text-sm">Marketplace for 3D laser printed products</dd>
-            <dt className="sr-only">Role</dt>
-            <dd className="mt-3">
-              <span className="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">WebApp</span>
-            </dd>
-          </dl>
-        </div>
-        <div>
-          <div className="-mt-px flex divide-x divide-gray-200">
-            <div className="w-0 flex-1 flex">
-              <a href="#" className="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-                {/* Heroicon name: solid/mail */}
-                {/* <svg className="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                </svg> */}
-                <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clip-rule="evenodd" />
-                </svg>
-                <span className="ml-3">Website:</span>
-              </a>
-            </div>
-            <div className="-ml-px w-0 flex-1 flex">
-              <a href="#" className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-                {/* Heroicon name: solid/phone */}
-                <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
-                </svg>
-                <span className="ml-3">Visit</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-        <div className="flex-1 flex flex-col p-8">
-          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="images/neighbors.png" alt />
-          <h3 className="mt-6 text-gray-900 text-sm font-medium">CyberNeighbors</h3>
-          <dl className="mt-1 flex-grow flex flex-col justify-between">
-            <dt className="sr-only">Title</dt>
-            <dd className="text-gray-500 text-sm">Community for apartment buildings and tenants alike.</dd>
-            <dt className="sr-only">Role</dt>
-            <dd className="mt-3">
-              <span className="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">WebApp</span>
-            </dd>
-          </dl>
-        </div>
-        <div>
-          <div className="-mt-px flex divide-x divide-gray-200">
-            <div className="w-0 flex-1 flex">
-              <a href="#" className="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-                {/* Heroicon name: solid/mail */}
-                {/* <svg className="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                </svg> */}
-                <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clip-rule="evenodd" />
-                </svg>
-                <span className="ml-3">Website</span>
-              </a>
-            </div>
-            <div className="-ml-px w-0 flex-1 flex">
-              <a href="#" className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-                {/* Heroicon name: solid/phone */}
-                <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
-                </svg>
-                <span className="ml-3">Visit</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-        <div className="flex-1 flex flex-col p-8">
-          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="images/api.png" alt />
-          <h3 className="mt-6 text-gray-900 text-sm font-medium">Garage API</h3>
-          <dl className="mt-1 flex-grow flex flex-col justify-between">
-            <dt className="sr-only">Title</dt>
-            <dd className="text-gray-500 text-sm">Make decisions based on what's trending in real time</dd>
-            <dt className="sr-only">Role</dt>
-            <dd className="mt-3">
-              <span className="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">WebApp</span>
-            </dd>
-          </dl>
-        </div>
-        <div>
-          <div className="-mt-px flex divide-x divide-gray-200">
-            <div className="w-0 flex-1 flex">
-              <a href="#" className="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-                {/* Heroicon name: solid/mail */}
-                {/* <svg className="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                </svg> */}
-                <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clip-rule="evenodd" />
-                </svg>
-                <span className="ml-3">Website</span>
-              </a>
-            </div>
-            <div className="-ml-px w-0 flex-1 flex">
-              <a href="#" className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-                {/* Heroicon name: solid/phone */}
-                {/* <svg className="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-                </svg> */}
-                <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
-                </svg>
-                <span className="ml-3">Visit</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-        <div className="flex-1 flex flex-col p-8">
-          <img className="w-64 h-32 flex-shrink-0 mx-auto bg-black rounded-t-lg" src="images/tuberdome.png" alt />
-          <h3 className="mt-6 text-gray-900 text-sm font-medium">TuberDome</h3>
-          <dl className="mt-1 flex-grow flex flex-col justify-between">
-            <dt className="sr-only">Title</dt>
-            <dd className="text-gray-500 text-sm">Make educated guess on which movie will rule the box office</dd>
-            <dt className="sr-only">Role</dt>
-            <dd className="mt-3">
-              <span className="px-2 py-1 text-green-800 text-xs font-medium bg-green-100 rounded-full">Web | Mobile</span>
-            </dd>
-          </dl>
-        </div>
-        <div>
-          <div className="-mt-px flex divide-x divide-gray-200">
-            <div className="w-0 flex-1 flex">
-              <a href="#" className="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500">
-                {/* Heroicon name: solid/mail */}
-                {/* <svg className="w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                </svg> */}
-                <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clip-rule="evenodd" />
-                </svg>
-                <span className="ml-3">Website</span>
-              </a>
-            </div>
-            <div className="-ml-px w-0 flex-1 flex">
-              <a href="#" className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500">
-                {/* Heroicon name: solid/phone */}
-                <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
-                </svg>
-                <span className="ml-3">Visit</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </li>
-</ul>
-
+    <div className="grid grid-cols-4 gap-4">
+    <Portfolio />
     </div>
+          
   </div>
 </div>
 <footer className="bg-gray-800" aria-labelledby="footerHeading">
