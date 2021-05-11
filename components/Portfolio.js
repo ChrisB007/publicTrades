@@ -2,10 +2,10 @@ import Link from 'next/link';
 
 const portfolios = [
     {
-        title: "Mentors Parlor",
-        description: "Find true one-on-one mentorship from experts who can relate to you. ",
-        image: "images/mentors.png",
-        url: "https://www.mentorsparlor.com",
+        title: "mOOdFlics",
+        description: "Watch movies, TV, and Stream contents based on how you feel. ",
+        image: "images/moodflics.png",
+        url: "https://www.moodflics.com",
         type: "Web App"
     },
     {
