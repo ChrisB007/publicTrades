@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.mx-auto.h-12.w-auto {
+  border-radius: 30px;
+}

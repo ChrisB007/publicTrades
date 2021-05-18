@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Portfolio from '../components/Portfolio';
+import Link from 'next/link';
 
 export default function Home() {
  
@@ -39,11 +40,13 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-            <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Services</a>
-            <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Products</a>
-            <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Developers</a>
-          </div> */}
+          <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+            {/* <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Services</a>
+            <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Products</a> */}
+            <Link href="login">
+              <a  className="font-medium text-gray-500 hover:text-gray-900">Developers Login</a>
+            </Link>  
+          </div>
         </nav>
       </div>
       {/*
@@ -88,7 +91,7 @@ export default function Home() {
             </div>
             <div className="mt-3 sm:mt-0 sm:ml-3">
               <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-700 hover:bg-green-400 md:py-4 md:text-lg md:px-10">
-                <span>Build an idea</span>
+                <span>Let's build together</span>
               </a>
             </div>
           </div>
